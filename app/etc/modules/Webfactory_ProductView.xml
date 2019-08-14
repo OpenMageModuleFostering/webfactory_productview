@@ -1,0 +1,17 @@
+<?xml version="1.0"?>
+<!--
+    ================================================
+    |                                              |
+    |          Developed by Robin Zinser           |
+    |         wwww.Webfactory-Zweinull.de          |
+    |                                              |
+    ================================================
+-->
+<config>
+    <modules>
+        <Webfactory_ProductView>
+            <active>true</active>
+            <codePool>community</codePool>
+        </Webfactory_ProductView>
+    </modules>
+</config>

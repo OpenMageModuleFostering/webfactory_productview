@@ -1,0 +1,28 @@
+<?xml version="1.0"?>
+<!--
+    ================================================
+    |                                              |
+    |          Developed by Robin Zinser           |
+    |         wwww.Webfactory-Zweinull.de          |
+    |                                              |
+    ================================================
+-->
+<config>
+    <modules>
+        <Webfactory_ProductView>
+            <version>1.0.0</version>
+        </Webfactory_ProductView>
+    </modules>
+    <global>    
+        <blocks>
+            <adminhtml>
+                <rewrite>
+                    <catalog_product_edit>Webfactory_ProductView_Block_Catalog_Product_Edit</catalog_product_edit>
+                </rewrite>
+            </adminhtml>
+            <ProductView>
+                    <class>Webfactory_ProductView_Block</class>
+            </ProductView>
+        </blocks>
+    </global>
+</config>

@@ -1,0 +1,16 @@
+{
+    "name": "OpenMageModuleFostering/Webfactory_ProductView",
+    "type": "magento-module",
+    "license": "OSL-v3.0",
+    "homepage": "",
+    "description": "Extension which allow to show "view" button to view product directly from admin",
+    "authors": [
+    {
+        "name": "Robin Zinser",
+        "email": "info@webfactory-zweinull.de"
+    }
+],
+    "suggest": {
+        "magento-hackathon/magento-composer-installer": "*"
+    }
+}

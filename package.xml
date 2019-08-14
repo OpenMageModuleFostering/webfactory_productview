@@ -1,0 +1,18 @@
+<?xml version="1.0"?>
+<package>
+    <name>Webfactory_ProductView</name>
+    <version>1.0.0</version>
+    <stability>stable</stability>
+    <license uri="http://opensource.org/licenses/osl-3.0.php">OSL v3.0</license>
+    <channel>community</channel>
+    <extends/>
+    <summary>Extension which allow to show "view" button to view product directly from admin</summary>
+    <description>This extension adds a "View" button to the product edit-page (admin). This button allows you to quickly open a new window and view the product your editing in your frontend.</description>
+    <notes>release version</notes>
+    <authors><author><name>Robin Zinser</name><user>admin</user><email>info@webfactory-zweinull.de</email></author></authors>
+    <date>2016-12-15</date>
+    <time>14:20:15</time>
+    <contents><target name="mage"><dir name="app"><dir name="code"><dir name="community"><dir name="Webfactory"><dir name="ProductView"><dir><dir name="Block"><dir name="Catalog"><dir name="Product"><file name="Edit.php" hash="3ff74aa4560405307779679fdf87d462"/></dir></dir></dir><dir name="etc"><file name="config.xml" hash="e9a50d25e6904806f1bf3593a9270203"/></dir></dir></dir></dir></dir></dir><dir name="etc"><dir name="modules"><file name="Webfactory_ProductView.xml" hash="18ae001c4492b4f05356da4cdf6e5e44"/></dir></dir></dir></target><target name="magedesign"><dir name="adminhtml"><dir name="default"><dir name="default"><dir name="template"><dir name="webfactory"><dir name="catalog"><dir name="product"><file name="edit.phtml" hash="638f6ed549b22ecfb7f1a87c595295a4"/></dir></dir></dir></dir></dir></dir></dir></target></contents>
+    <compatible/>
+    <dependencies><required><php><min>5.4.0.</min><max>6.0.0.</max></php></required></dependencies>
+</package>
